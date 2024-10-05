@@ -5,7 +5,7 @@ const Button = (props) => {
 };
 
 Button.propTypes = {
-  label: PropTypes.func.isRequired,
+  label: PropTypes.string.isRequired,
 };
 
 export default Button;
